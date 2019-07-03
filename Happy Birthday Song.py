@@ -1,17 +1,20 @@
+from __future__ import print_function
 import time
 import sys
+
 try:
     import winsound
 except ImportError:
     import os
 
-name = raw_input("What is your name? ")
-print " >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
-print "		 A geeky birthday wish from a geeky friend!"
-print "		 =========================================="
-print "		    Created By SujoyDatta"
-print "          https://github.com/Sujoydatta26"
-print " >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+name = input("What is your name? ")
+
+print (" >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
+print ("		 A geeky birthday wish from a geeky friend!")
+print ("		 ==========================================")
+print ("		    Created By SujoyDatta")
+print ("          https://github.com/Sujoydatta26")
+print (" >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>")
 try:
 	winsound.Beep(264, 250)
 	sys.stdout.write('Ha')	
@@ -112,7 +115,7 @@ except:
 	sys.stdout.flush()
 	os.system('beep -f 352 -l 1000')
 	time.sleep(250/2000.0)
-	print 'you'
+	print ('you')
 	os.system('beep -f 330 -l 2000')
 	time.sleep(500/2000.0)
 	
@@ -136,7 +139,7 @@ except:
 	sys.stdout.flush()
 	os.system('beep -f 396 -l 1000')
 	time.sleep(250/2000.0)
-	print 'you'
+	print ('you')
 	os.system('beep -f 352 -l 2000')
 	time.sleep(500/2000.0)
 	
@@ -159,7 +162,7 @@ except:
 	sys.stdout.write('dear ')
 	sys.stdout.flush()
 	os.system('beep -f 330 -l 1000')
-	print name
+	print (name)
 	time.sleep(250/2000.0)
 	os.system('beep -f 297 -l 1000')
 	
@@ -187,19 +190,20 @@ except:
 	sys.stdout.flush()
 	os.system('beep -f 396 -l 1000')
 	time.sleep(250/2000.0)
-	print 'you'
+	print ('you')
 	os.system('beep -f 352 -l 2000')
 	time.sleep(250/2000.0)
 
-print 'HAPPY BIRTHDAY ' + name + ' <3 !!!'
+print ('HAPPY BIRTHDAY ' + name + ' <3 !!!')
 
-print "  --------------------------------------------------------------------------------------------------------"
-print "  | |  | |    /\    |  __ \ |  __ \ \ \   / / |  _ \|_   _||  __ \|__   __|| |  | ||  __ \    /\ \ \   / /"
+print ("  --------------------------------------------------------------------------------------------------------")
 
-print "  | |__| |   /  \   | |__) || |__) | \ \_/ /  | |_) | | |  | |__) |  | |   | |__| || |  | |  /  \ \ \_/ /  "
+print ("  | |  | |    /\    |  __ \ |  __ \ \ \   / / |  _ \|_   _||  __ \|__   __|| |  | ||  __ \    /\ \ \   / /")
 
-print "  |  __  |  / /\ \  |  ___/ |  ___/   \   /   |  _ <  | |  |  _  /   | |   |  __  || |  | | / /\ \ \   /  "
+print ("  | |__| |   /  \   | |__) || |__) | \ \_/ /  | |_) | | |  | |__) |  | |   | |__| || |  | |  /  \ \ \_/ /  ")
 
-print "  | |  | | / ____ \ | |     | |        | |    | |_) |_| |_ | | \ \   | |   | |  | || |__| |/ ____ \ | |   "
+print ("  |  __  |  / /\ \  |  ___/ |  ___/   \   /   |  _ <  | |  |  _  /   | |   |  __  || |  | | / /\ \ \   /  ")
 
-print "  |_|  |_|/_/    \_\|_|     |_|        |_|    |____/|_____||_|  \_\  |_|   |_|  |_||_____//_/    \_\|_|   "
+print ("  | |  | | / ____ \ | |     | |        | |    | |_) |_| |_ | | \ \   | |   | |  | || |__| |/ ____ \ | |   ")
+
+print ("  |_|  |_|/_/    \_\|_|     |_|        |_|    |____/|_____||_|  \_\  |_|   |_|  |_||_____//_/    \_\|_|   ")
